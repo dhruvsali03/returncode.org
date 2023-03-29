@@ -1,0 +1,35 @@
+body {
+  height: 125vh;
+  margin-top: 80px;
+  padding: 30px;
+  background-size: cover;
+  font-family: "RocknRoll One", sans-serif;
+}
+header {
+  background-color: #865dff;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 10px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 0 25px 0 black;
+}
+header * {
+  display: inline-block;
+}
+header li {
+  margin: 30px;
+}
+header li a {
+  text-transform: uppercase;
+  color: #fff1dc;
+  text-decoration: none;
+}
+h1 {
+    text-align: center;
+  }
+h4 {
+  text-align: center;
+}
